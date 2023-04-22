@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    float: right;
+    margin-top: 20px;
+}
+
+.editar {
+    background-image: url('https://img.icons8.com/pastel-glyph/32/000000/edit.png');
+    background-color: rgba(160, 160, 160, 0.5);
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.editar:focus {
+    outline-color: transparent;
+    outline-style: none;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: #ccc;
+    font-size: 16px;
+    color: #fff;
+}
+
+.contenedor {
+    width: 90%;
+    height: 100%;
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.widget {
+    width: 50%;
+    height: 40%;
+    position: relative;
+    top: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.widget p {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.fecha {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    background: rgba(17, 17, 17, 0.5);
+    padding: 20px;
+    width: 100%;
+}
+
+.reloj {
+    font-family: 'Orbitron';
+    width: 100%;
+    padding: 20px;
+    font-size: 4em;
+    text-align: center;
+    background: rgba(46, 46, 46, 0.5);
+}
+
+.reloj .cajaSegundos {
+    display: inline-block;
+}
+
+.reloj .ampm,
+.reloj .segundos {
+    display: block;
+    font-size: 2rem;
+}
+
+.ventana {
+    background-color: white;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: black;
+    width: 30%;
+    text-align: center;
+    padding: 30px;
+    min-height: 250px;
+    border-radius: 22px;
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    display: none;
+}
+
+.datos {
+    position: absolute;
+    top: 110px;
+    left: 65px;
+}
+
+.datos input {
+    width: 60px;
+    height: 50px;
+    display: inline-block;
+    line-height: 1em;
+}
+
+.datos p {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.botones {
+    position: absolute;
+    left: 85px;
+    top: 190px;
+}
+
+.botones button {
+    background-color: rgb(235, 235, 235);
+    color: black;
+    font-weight: bold;
+    border: none;
+    width: 90px;
+    height: 40px;
+}
+
+.botones button:hover,
+button:focus {
+    border: none;
+}
+
+table {
+    background-color: rgba(46, 46, 46, 0.5);
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+    font-family: sans-serif;
+}
+
+th,
+td {
+    padding: 20px;
+}
+
+th {
+    background-color: rgba(160, 160, 160, 0.5);
+}

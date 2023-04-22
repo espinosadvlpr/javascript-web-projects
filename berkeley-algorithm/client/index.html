@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+    <script src="clock.js"></script>
+    <title>Hora</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <nav>
+            <button class="editar" onclick="showWindow()"></button>
+        </nav>
+        <div class="widget">
+            <div class="fecha">
+                <p>LA HORA ES:</p>
+            </div>
+            <div class="reloj">
+                <p id="horas" class="horas">12</p>
+                <p>:</p>
+                <p id="minutos" class="minutos">0</p>
+                <p>:</p>
+                <div class="cajaSegundos">
+                    <p id="segundos" class="segundos">0</p>
+                </div>
+            </div>
+        </div>
+        <div class="diferencias">
+            <table id="table">
+                <tr>
+                    <th>HORA ANTERIOR</th>
+                    <th>HORA NUEVA</th>
+                    <th>DIFERENCIA</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="ventana" id="ventana">
+        INGRESE LA NUEVA HORA:
+        <div class="datos">
+            <input id="nueva-hora" type="number">
+            <p>:</p>
+            <input id="nuevos-minutos" type="number">
+            <p>:</p>
+            <input id="nuevos-segundos" type="number">
+        </div>
+        <div class="botones">
+            <button class="aceptar" onclick="changeHour()">ACEPTAR</button>
+            <button class="cancelar" onclick="closeWindow()">CANCELAR</button>
+        </div>
+    </div>
+</body>
+
+</html>
