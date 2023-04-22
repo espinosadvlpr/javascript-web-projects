@@ -1,5 +1,5 @@
 # Javascript Sockets Example using Socket.io Library
-This project is an example of using sockets with the Socket.io library in Javascript. It consists of a client-side and server-side implementation that allow for real-time communication between the two.
+This project is an example of using sockets with the Socket.io library in Javascript. It consists of a client-side implementation that allow for real-time communication using sockets.
 
 ## Installation
 To run this project, you'll only need to download the repository and run it following these steps:
